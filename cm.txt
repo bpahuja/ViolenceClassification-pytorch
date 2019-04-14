@@ -1,0 +1,1 @@
+python main.py --numEpochs 1 --lr 1e-4 --stepSize 8 --decayRate 0.5 --seqLen 8 --trainBatchSize 16 --memSize 256 --evalInterval 5 --evalMode horFlip --numWorkers 4 --outDir violence --fightsDirTrain ./dataset/fights-prep --noFightsDirTrain ./dataset/nofights-prep --fightsDirTest ./dataset/fight-test --noFightsDirTest ./dataset/nofight-test
